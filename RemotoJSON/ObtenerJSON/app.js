@@ -31,8 +31,8 @@ function getPosts() {
 }
 
 function getCountries() {
-    //return fetch('https://restcountries.eu/rest/v2/all');
-    return fetch('https://restcountries.eu/rest/v2/currency/cop');
+    return fetch('https://restcountries.eu/rest/v2/all');
+    
 }
 
 function mostrarBanderas(countries) {
